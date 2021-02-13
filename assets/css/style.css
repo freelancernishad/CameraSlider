@@ -1,0 +1,83 @@
+
+/* slider css */
+h6.sliderFirstTitle {
+    color: #ffd322;
+    font-size: 17px;
+}
+h2.sliderSecoundTitle {
+    font-size: 50px;
+}
+p.text-white.animate__animated.animate__fadeInRightBig {
+    font-size: 18px;
+}
+i.fas.fa-chevron-left {
+    color: #292626;
+    font-size: 39px;
+}
+
+i.fas.fa-chevron-right {
+    color: #292626;
+    font-size: 39px;
+}
+
+.camera_commands {
+    display: none;
+}
+h2.animated.fadeInDown {
+    color: orange;
+}
+
+h2.animated.fadeInDown span {
+    color: tomato;
+}
+
+p.animated.fadeInUp {
+    color: white;
+    font-size: 17px;
+    width: 90%;
+    text-align: justify;
+}
+a.sliderBtn {
+    padding: 6px 37px 9px 37px !important;
+    margin: 10px !important;
+    font-size: 30px !important;
+    color: white !important;
+    text-decoration: none !important;
+    border-radius: 5px !important;
+    font-weight: 600 !important;
+}
+a.sliderBtn.About {
+    background: #6f9b63;
+}
+a.sliderBtn.Portfolio {
+    background: #e96c57;
+}
+a.sliderBtn:hover {
+    background: #4b5056;
+}
+img.sliderOverImage {
+    display: none;
+}
+.cameraContent.cameracurrent {
+    background: #00000073;
+}
+@media only screen and (min-width: 960px) {
+    img.sliderOverImage {
+        display: block;
+    }
+    .sliderflexContainer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    img.sliderOverImage {
+        width: 465px;
+        margin-top: 52px;
+    }
+}
+
+/* slider css */
