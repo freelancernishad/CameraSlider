@@ -3,12 +3,17 @@
 h6.sliderFirstTitle {
     color: #ffd322;
     font-size: 17px;
+    text-align: center;
 }
 h2.sliderSecoundTitle {
     font-size: 50px;
+    color: white;
+    text-align: center;
 }
 p.text-white.animate__animated.animate__fadeInRightBig {
     font-size: 18px;
+    text-align: center;
+    color: white;
 }
 i.fas.fa-chevron-left {
     color: #292626;
